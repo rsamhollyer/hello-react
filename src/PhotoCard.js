@@ -4,10 +4,11 @@ function PhotoCard(props) {
 	console.log(props);
 	return (
 		<div className="photo-card">
-			<figure className="card-body">
-				<img className="image" src={props.url} alt="" />
-				{/* <figcaption className="card-text">This is an Image</figcaption> */}
-			</figure>
+			<img className="image" src={props.url} alt="" />
+			<div className="card-body">
+				<h5 className="photo-title">{props.title} </h5>
+				<p className="card-text">{props.description}</p>
+			</div>
 		</div>
 	);
 }

@@ -30,7 +30,8 @@
 /* This is editted styling for the photos I add */
 .photo-card {
 	outline: 3px orange solid;
-	margin: 0.5rem;
+	margin: 0 0.5rem;
+	background-color: grey;
 }
 
 .image {
@@ -38,6 +39,7 @@
 }
 .card-body {
 	margin: 0;
+	opacity: 0.5;
 }
 
 .photo-gallery {
@@ -45,6 +47,20 @@
 
 	justify-content: space-around;
 	align-items: center;
+}
+
+.photo-title {
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+}
+
+.card-text {
+	font-size: 12px;
+	text-align: center;
+
+	padding: 0;
+	margin: 0;
 }
 @keyframes App-logo-spin {
 	from {
