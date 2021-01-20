@@ -6,6 +6,7 @@ function PhotoCard(props) {
 		<div className="photo-card">
 			<img className="image" src={props.url} alt="" />
 			<div className="card-body">
+				<footer className="card-footer"></footer>
 				<h5 className="photo-title">{props.title} </h5>
 				<p className="card-text">{props.description}</p>
 			</div>

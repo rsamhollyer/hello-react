@@ -28,10 +28,19 @@
 	color: #61dafb;
 }
 /* This is editted styling for the photos I add */
+.photo-gallery {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 .photo-card {
 	outline: 3px orange solid;
 	margin: 0 0.5rem;
 	background-color: grey;
+	flex: 0 1 auto;
+	display: flex;
+	flex-direction: column;
 }
 
 .image {
@@ -41,12 +50,10 @@
 	margin: 0;
 	opacity: 0.5;
 }
-
-.photo-gallery {
-	display: flex;
-
-	justify-content: space-around;
-	align-items: center;
+.card-footer {
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .photo-title {
