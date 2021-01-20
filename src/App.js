@@ -6,7 +6,7 @@ function App() {
 		<div className="App">
 			<header className="App-header">
 				<h1>Hello, React!</h1>
-				<PhotoGallery></PhotoGallery>
+				<PhotoGallery />
 				{/* <img src="/logo192.png" alt="React logo" /> */}
 				{/* This good Syntax for injecting images*/}
 

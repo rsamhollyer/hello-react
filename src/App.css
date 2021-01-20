@@ -29,7 +29,6 @@
 }
 /* This is editted styling for the photos I add */
 .photo-card {
-	max-width: 75%;
 	outline: 3px orange solid;
 	margin: 0.5rem;
 }
@@ -38,12 +37,7 @@
 	width: 100%;
 }
 .card-body {
-	max-width: 100%;
 	margin: 0;
-}
-
-.card-body img {
-	width: 100%;
 }
 
 .photo-gallery {
