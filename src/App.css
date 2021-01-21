@@ -55,6 +55,7 @@
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	align-self: flex-end;
 }
 
 .photo-title {
@@ -67,6 +68,12 @@
 	font-size: 12px;
 	text-align: center;
 
+	padding: 0;
+	margin: 0;
+}
+
+.card-likes {
+	font-size: 12px;
 	padding: 0;
 	margin: 0;
 }
