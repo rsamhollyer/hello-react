@@ -7,26 +7,26 @@ const data = [
 		title: "This is a title",
 		description: "This is a description",
 	},
-	{
-		url: "/image 2.jpg",
-		title: "This is a title",
-		description: "This is a description",
-	},
-	{
-		url: "/image 3.jpg",
-		title: "This is a title",
-		description: "This is a description",
-	},
-	{
-		url: "/image 4.jpg",
-		title: "This is a title",
-		description: "This is a description",
-	},
-	{
-		url: "/image 5.jpg",
-		title: "This is a title",
-		description: "This is a description",
-	},
+	// {
+	// 	url: "/image 2.jpg",
+	// 	title: "This is a title",
+	// 	description: "This is a description",
+	// },
+	// {
+	// 	url: "/image 3.jpg",
+	// 	title: "This is a title",
+	// 	description: "This is a description",
+	// },
+	// {
+	// 	url: "/image 4.jpg",
+	// 	title: "This is a title",
+	// 	description: "This is a description",
+	// },
+	// {
+	// 	url: "/image 5.jpg",
+	// 	title: "This is a title",
+	// 	description: "This is a description",
+	// },
 ];
 
 function PhotoGallery() {
